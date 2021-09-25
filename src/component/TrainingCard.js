@@ -178,7 +178,7 @@ const TrainingCard = (props) => {
                 justifyContent: "center",
                 alignItems: "center",
               }}
-              onPress={() => navigation.navigate("Watching")}
+              onPress={() => navigation.navigate("WatchingTutorial")}
             >
               <Text
                 style={{

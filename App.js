@@ -34,7 +34,7 @@ function FeedScreenStack() {
     >
       <Stack.Screen name="Splash" component={TrainingSplash} />
       <Stack.Screen name="CoursesScreen" component={CoursesScreen} />
-      <Stack.Screen name="Watching" component={WatchingTutorial} />
+      <Stack.Screen name="WatchingTutorial" component={WatchingTutorial} />
     </Stack.Navigator>
   );
 }
@@ -78,6 +78,7 @@ export default function App() {
         >
           <Tab.Screen name="Learn" component={TrainingSplash} />
           <Tab.Screen name="CoursesScreen" component={CoursesScreen} />
+          <Tab.Screen name="WatchingTutorial" component={WatchingTutorial} />
         </Tab.Navigator>
       </NavigationContainer>
     </View>
